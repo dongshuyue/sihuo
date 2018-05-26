@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选择客户</title>
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+  <link rel="stylesheet" href="./../asset/css/normal.css">
+  <link rel="stylesheet" href="./../asset/css/chooseCustomer.css">
+  <script src="./../asset/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id='choose-customer'>
+		<ul class='list'></ul>
+		<div class='sure'>确 定</div>
+	</div>
+	<script src="../asset/js/public.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(function () {
+			var listArr = [
+	      {name: '朱玲', select: false},
+	      {name: '彭骇勉', select: false},
+	      {name: '史澈', select: true},
+	      {name: '冯咪', select: false}
+			]
+			var liList = ''
+			listArr.forEach( function(val, index) {
+				var isChoose = val.select ? '' : 'ischoose'
+				liList += '<li class="listli"><span>' + val.name + '</span><span class="duigou ' + isChoose + '"></span></li>'
+			});
+			$('.list').append(liList)
+
+			$('.listli').each(function(index, val) {
+				$(this).on('click', function (e) {
+					listArr[index].select = !listArr[index].select
+				 	$(e.currentTarget).find('.duigou').toggleClass('ischoose')
+				})
+			});
+		})
+		$('.sure').click(function(){
+			location.href='buildDeliverGoods_chooseCustomerafter.html'
+		})
+	</script>
+</body>
+</html>

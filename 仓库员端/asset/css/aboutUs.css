@@ -1,0 +1,14 @@
+body{
+  height:100vh;
+  /*background: #ededed;*/
+}
+.header img{
+  height:5.94rem;
+}
+.main{
+  width:6.7rem;
+  margin:0.2rem auto;
+  padding:0.2rem;
+  box-shadow: 0 0 8px 0 rgba(157,157,157,0.50);
+  border-radius: 8px;
+}

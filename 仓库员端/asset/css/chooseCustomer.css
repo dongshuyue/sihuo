@@ -1,0 +1,40 @@
+#choose-customer{
+	height: 100vh;
+	overflow: hidden;
+	background: #f2f5f5;
+	font-size: 14px;
+}
+#choose-customer ul{
+	background: #fff;
+	border-bottom: 1.0rem;
+}
+#choose-customer ul li {
+	height: 0.9rem;
+	line-height: 0.9rem;
+	border-bottom: 1px solid #F4F4F5;
+	padding: 0px 0.3rem;
+}
+#choose-customer ul li:last-child {
+	border-bottom: none;
+}
+#choose-customer .sure{
+	width: 100%;
+  text-align: center;
+	background: #fff;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	box-shadow: 1px 0px 5px 2px #e0e0e0;
+}
+#choose-customer ul li .duigou{
+ float: right;
+ width: 0.8rem;
+ height: 0.8rem;
+ background: url('../img/ic_choosed@2x.png') no-repeat center;
+ background-size: 0.4rem;
+}
+.ischoose{
+	display: none;
+}

@@ -1,0 +1,70 @@
+body{
+  min-height: 100vh;
+  background: #ededed;
+}
+.customer{
+  margin-bottom: 0.2rem;
+  background-color: #fff;
+}
+.chooseCustomer{
+  height:0.9rem;
+  line-height: 0.9rem;
+  padding-left: 0.28rem;
+  font-size: 16px;
+  color:#BDBDBD;
+  background: url('../img/ic_more_gray@3x.png') no-repeat;
+  background-size: 0.14rem 0.26rem;
+  background-position: 95% center; 
+}
+.chooseCustomer.selected{
+  color:#444;
+}
+.buildDeGoods ul li{
+  background: #fff;
+  height:0.9rem;
+  line-height: 0.9rem;
+  font-size: 16px;
+  padding-left:0.28rem;
+}
+.buildDeGoods ul.customerInfo li{
+  border-top:1px solid #f1f1f1;
+  color:#BDBDBD;
+  font-size: 0.3rem;
+}
+.customerInfo li span{
+  display: inline-block;
+  width:1.25rem;
+  margin-right: 0.1rem;
+}
+.buildDeGoods ul.inputInfo li input{
+  height:0.83rem;
+  line-height: 0.83rem;
+  padding:0px;
+  font-size: 16px;
+  padding-left: 0.28rem;
+}
+.buildDeGoods ul li.inputInfo input:focus{
+  border:none;
+  outline: none;
+}
+.buildDeGoods ul.inputInfo li:first-child{
+  border-bottom: 1px solid #f7f7f7;
+}
+.foots{
+  height:1rem;
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  background: #fff;
+  font-size: 16px;
+}
+.foots button{
+  border: none;
+  outline: none;
+  padding: 0;
+  background: none;
+  width: 100%;
+  line-height: 1rem;
+  font-size: 16px;
+  color:#CE0010;
+}

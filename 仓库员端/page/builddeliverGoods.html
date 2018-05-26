@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>新建发货</title>
+    <link href="../asset/css/normal.css" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/css/builddeliverGoods.css">
+    <script src='../asset/js/jquery.min.js'></script>
+    <script src='../asset/js/public.js'></script>
+  </head>
+  <body>
+    <div class='buildDeGoods'>
+      <div class='customer'>
+        <div class='chooseCustomer'>
+          选择客户
+        </div>
+        <!-- <div class='chooseCustomer selected'>
+          王毅
+        </div>
+        <ul class='customerInfo'>
+          <li><span>收货人</span>王毅</li>
+          <li><span>收货地址</span>深圳市龙岗区王道街道158号</li>
+          <li><span>联系方式</span>15566789912</li>
+        </ul> -->
+      </div>
+      <ul class='inputInfo'>
+        <li>
+          <label for="company">物流公司</label>
+          <input type="text" name="company" id="company" placeholder="请输入物流公司名称" />
+        </li>
+        <li>
+          <label for="numbers">物流单号</label>
+          <input type="text" name="numbers" id="numbers" placeholder="请输入物流单号" />
+        </li>
+      </ul>
+      <div class='foots'>
+        <button id='submit'>提 交</button>
+      </div>  
+    </div>
+    <script>
+      $('.chooseCustomer').click(function(){
+        location.href = 'chooseCustomer.html'
+      })
+      $('#submit').click(function(){
+        console.log('234')
+        location.href = 'deliverGoods.html'
+      })
+    </script>
+  </body>
+</html>

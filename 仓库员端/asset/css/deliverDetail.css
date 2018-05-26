@@ -1,0 +1,201 @@
+#deliver-detail{
+	width: 100%;
+  height: 100vh;
+  background: #ededed;
+  padding-top: 0.2rem;
+}
+#deliver-detail >div{
+  background: #fff;
+  border-radius: 8px;
+  /*border: 1px solid red;*/
+  width: 95%;
+  margin: 0px auto;
+}
+#deliver-detail .top{
+	height: 2.76rem;
+	font-size: 14px;
+}
+#deliver-detail .top .title{
+	/*border: 1px solid red;*/
+	height: 0.8rem;
+}
+#deliver-detail .top .title span {
+	color: #ff8695;
+	display: inline-block;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	width: 56%;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+#deliver-detail .top .title span:nth-child(2){
+	width: 30%;
+	height: 0.65rem;
+	float: right;
+	border-bottom: 1px solid #eee;
+}
+#deliver-detail .top .title .line{
+	padding-left: 4%;
+}
+#deliver-detail .top .title .line::after{
+	border-bottom: 1px solid #eee;
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	right: -0.18rem;
+	width: 0.2rem;
+	height: 0px;
+	transform: rotate(-45deg);
+	transform-origin: 0px 0px;
+}
+#deliver-detail .top .title span:nth-child(2)::before{
+	border-bottom: 1px solid #eee;
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	left: -28%;
+	width: 15%;
+	height: 0px;
+}
+#deliver-detail .top .content{
+	padding: 0.25rem 5%;
+	/*border: 1px solid red;*/
+}
+#deliver-detail .top .content >span{
+	display: inline-block;
+	width: 10%;
+	height: 1.25rem;
+	/*border: 1px solid red;*/
+	vertical-align: middle;
+	background: url(../img/ic_location@2x.png) no-repeat left center;
+	background-size: 0.4rem 0.4rem;
+}
+#deliver-detail .top .content >div{
+	vertical-align: middle;
+	display: inline-block;
+	width: 88%;
+	/*height: 1.4rem;*/
+	/*border: 1px solid red;*/
+}
+#deliver-detail .top .content >div p{
+	overflow: hidden;
+}
+#deliver-detail .top .content >div p:nth-child(1){
+	padding-bottom: 0.3rem;
+}
+#deliver-detail .top .content >div p:nth-child(1) .tel{
+	/*border: 1px solid red;*/
+	float: right;
+}
+#deliver-detail .center {
+	margin-top: 0.2rem;
+	height: 1.6rem;
+	padding: 0.3rem 0%;
+	position: relative;
+	top:0px;
+	left:0px;
+	font-size: 14px;
+}
+#deliver-detail .center:after{
+	content: '';
+	display: inline-block;
+	width:0px;
+	height: 0px;
+	border: 0.16rem solid transparent;
+	border-top-color: #fff;
+	position: absolute;
+	bottom: -0.28rem;
+	left: 50%;
+	margin-left: -0.08rem;
+}
+#deliver-detail .center >div{
+	display: inline-block;
+	width: 20%;
+	height: 1.6rem;
+	vertical-align: middle;
+	/*border: 1px solid red;*/
+}
+#deliver-detail .center >div:nth-child(1) {
+	margin-left: 5%;
+}
+#deliver-detail .center >div >img{
+	width: 1.36rem;
+	height: 1.36rem;
+}
+#deliver-detail .center >div:nth-child(2) {
+  width: 68%;
+}
+#deliver-detail .center >div:nth-child(2) p{
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+#deliver-detail .center >div:nth-child(2) p.delivertime{
+  font-weight: normal;
+  color: #868686;
+}
+#deliver-detail .bottom{
+  margin-top: 0.25rem;
+  min-height: 1.0rem;
+  font-size: 14px;
+}
+#deliver-detail .bottom ul {
+	/*border: 1px solid red;*/
+	padding: 0.5rem 2%;
+}
+#deliver-detail .bottom ul li{
+	/*border: 1px solid red;*/
+}
+#deliver-detail .bottom ul li >div{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+#deliver-detail .bottom ul li .timeline{
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+#deliver-detail .bottom ul li .msg{
+	/*border: 1px solid blue;*/
+	width: 80%;
+	padding-bottom: 15px;
+}
+#deliver-detail .bottom ul li .msg p{
+	padding-bottom: 5px;
+}
+#deliver-detail .bottom ul li .msg p:nth-child(2){
+	color: #999;
+	font-size: 0.24rem;
+}
+#deliver-detail .bottom ul li .timeline .times{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 0.2rem;
+	background: #c9c9c9;
+	vertical-align: top;
+	position: absolute;
+	top:1px;
+	left: 0.2rem;
+}
+#deliver-detail .bottom ul li .timeline .line{
+	vertical-align: top;
+	display: inline-block;
+	width: 0px;
+	border:1px solid #c9c9c9;
+	position: absolute;
+	top:2px;
+	left:0.27rem;
+}
+#deliver-detail .bottom ul li:nth-child(1) .timeline .times{
+	width: 0.18rem;
+	height: 0.18rem;
+	border-radius: 0.18rem;
+	background: rgb(245,46,44);
+	z-index: 9;
+	border: 0.05rem solid rgba(255,166,167,0.8);
+	left: 0.16rem;
+}
