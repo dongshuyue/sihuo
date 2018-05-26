@@ -43,7 +43,7 @@ body{
   height:0.83rem;
   line-height: 0.83rem;
   padding:0px;
-  font-size: 15px;
+  font-size: 15px !important;
   padding-left: 0.28rem;
 }
 .buildDeGoods ul li.inputInfo input:focus{

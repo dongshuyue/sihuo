@@ -1,7 +1,14 @@
 @charset "utf-8";
+@font-face{  
+  font-family: pingFangSC-Regular;  
+  src: url('pingFangRegular.ttf');  
+  font-weight: normal;  
+  font-style: normal;  
+}  
 /*通用*/
 body {
   /*font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;*/
+  font-family:pingFangSC-Regular,sans-serif;
   color:#444;
   margin:0px;
   padding:0px;
