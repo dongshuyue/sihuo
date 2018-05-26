@@ -19,6 +19,9 @@ body{
 .chooseCustomer.selected{
   color:#444;
 }
+.buildDeGoods{
+  font-size: 14px;
+}
 .buildDeGoods ul li{
   background: #fff;
   height:0.9rem;

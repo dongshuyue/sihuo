@@ -3,6 +3,9 @@ body{
   background: #ededed;
   /*background: #717171;*/
 }
+.deliverGoods{
+  font-size: 14px;
+}
 .adds{
   width:100%;
   height:2.64rem;
