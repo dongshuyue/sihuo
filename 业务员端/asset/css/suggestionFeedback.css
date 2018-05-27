@@ -1,0 +1,35 @@
+body{
+  min-height: 100vh;
+  background: #ededed;
+}
+.header textarea{
+  border:none;
+  outline: none;
+  width:7.1rem;
+  min-height:3.66rem;
+  padding:0.2rem;
+  font-size: 15px !important;
+  line-height: 0.6rem;
+}
+.header textarea:focus{
+  border:none;
+  outline: none;
+}
+.foots{
+  height:1rem;
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  background: #fff;
+  font-size: 17px;
+}
+.foots button{
+  border: none;
+  outline: none;
+  padding: 0;
+  background: none;
+  width: 100%;
+  line-height: 1rem;
+  font-size: 17px;
+  color:#CE0010;
+}
