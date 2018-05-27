@@ -12,6 +12,7 @@ body{
 }
 .middle{
   padding:0.2rem;
+  margin-bottom:1.25rem;
 }
 .middle .nav{
   height:1.3rem;

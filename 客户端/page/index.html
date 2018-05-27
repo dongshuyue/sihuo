@@ -98,6 +98,7 @@
         </a>
       </div>
     <script>
+    $(function () {
       $('.nav li').click(function(e){
         $(this).addClass("active");
         $(this).siblings().removeClass("active");
@@ -105,9 +106,16 @@
         $('.content .' + className).addClass('show')
         $('.content .' + className).siblings().removeClass('show')
       })
-      $('.returned').click(function(){
+      $('.onWay .box').click(function(){
+        location.href = 'zaiTuDetail.html'
+      })
+      $('.shipped .box').click(function(){
+        location.href = 'receivedGoodsDetail.html'
+      })
+      $('.returned .box').click(function(){
         location.href = 'returnGoodsDetail.html'
       })
+    })
     </script>
   </body>
 </html>
