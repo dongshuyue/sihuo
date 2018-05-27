@@ -72,7 +72,7 @@
         </li>
       </ul>
     </div>
-    <div class='footer'>确认收货</div>
+    <div class='footer' id='submit'>确认收货</div>
   </div>
   <script src="../asset/js/public.js" type="text/javascript" charset="utf-8"></script>
 </body>
@@ -84,6 +84,12 @@
         $(val).find('.msg').css({color: '#999'})
       }
     });
+    $('#submit').click(function(){
+      $(this).addClass('tooltips')
+      setTimeout(function () {
+        $('#submit').removeClass('tooltips')
+      }, 1500);
+    })
   })
 </script>
 </html>

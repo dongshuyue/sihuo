@@ -84,6 +84,13 @@
         $(val).find('.msg').css({color: '#999'})
       }
     });
+    $('.footer').click(function(){
+      $(this).addClass('tooltips')
+      setTimeout(function () {
+        $(this).removeClass('tooltips')
+        location.href = 'index.html'
+      }, 1500);
+    })
   })
 </script>
 </html>

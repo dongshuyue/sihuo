@@ -43,4 +43,13 @@
       <button>提 交</button>
     </div> 
   </body>
+  <script>
+    $('.foots button').click(function(){
+      $(this).addClass('tooltips')
+      setTimeout(function () {
+        $(this).removeClass('tooltips')
+        location.href = 'personCenter.html'
+      }, 1500);
+    })
+  </script>
 </html>

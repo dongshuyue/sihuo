@@ -24,3 +24,34 @@ a{
 	color:#444;
 	text-decoration: none;
 }
+.tooltips::before{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  width: 3.0rem;
+  height: 1.0rem;
+  background: rgba(0, 0, 0, 0.5);
+  content: '成功';
+  color: #fff;
+  border-radius: 0.16rem;
+  padding-top: 0.9rem;
+  font-size: 16px;
+}
+.tooltips::after{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -1.3rem;
+  margin-left: -0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  text-align: center;
+  content: '';
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background: url(../img/ic_choosed@3x.png) no-repeat center;
+  background-size: 0.5rem 0.4rem;
+}
