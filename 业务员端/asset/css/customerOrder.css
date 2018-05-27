@@ -69,6 +69,7 @@ body{
 #customer-order .content >div p:nth-child(1) .tel{
 	/*border: 1px solid red;*/
 	float: right;
+	color: #333;
 }
 #customer-order .content-bottom{
   /*border: 1px solid red;*/

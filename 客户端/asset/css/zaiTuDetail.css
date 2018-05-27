@@ -177,6 +177,9 @@ body{
 #deliver-detail .bottom ul li .msg p{
 	padding-bottom: 5px;
 }
+#deliver-detail .bottom ul li .msg p a{
+	color:#999;
+}
 #deliver-detail .bottom ul li .msg p:nth-child(2){
 	color: #999;
 	font-size: 12px;

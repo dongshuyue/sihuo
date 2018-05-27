@@ -31,10 +31,10 @@ body{
 }
 .buildDeGoods ul.customerInfo li{
   border-top:1px solid #f1f1f1;
-  color:#BDBDBD;
+  color:#999;
   font-size: 0.3rem;
 }
-.customerInfo li span{
+.customerInfo li span:nth-child(1){
   display: inline-block;
   width:1.25rem;
   margin-right: 0.1rem;

@@ -93,6 +93,10 @@ body{
 #deliver-detail .top .content >div p:nth-child(1) .tel{
 	/*border: 1px solid red;*/
 	float: right;
+	color: #333;
+}
+.tels{
+	color: #999;
 }
 #deliver-detail .center {
 	margin-top: 0.2rem;

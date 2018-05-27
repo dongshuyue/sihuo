@@ -28,7 +28,7 @@
             <div class='tops'>
               <ul>
                 <li class='lf'>收货人：刘芳</li>
-                <li class='rt'>15635896654</li>
+                <li class='rt'><a href="tel:15239190232">15239190232</a></li>
               </ul>
               <div class='clear'>广东省深圳市宝安区龙塔街道红枫路3号邦兴佳苑4栋</div>
             </div>
@@ -44,7 +44,7 @@
             <div class='tops'>
               <ul>
                 <li class='lf'>收货人：刘芳</li>
-                <li class='rt'>15635896654</li>
+                <li class='rt'><a href="tel:15239190232">15239190232</a></li>
               </ul>
               <div class='clear'>广东省深圳市宝安区龙塔街道红枫路3号邦兴佳苑4栋</div>
             </div>
@@ -57,7 +57,7 @@
             <div class='tops'>
               <ul>
                 <li class='lf'>收货人：刘芳</li>
-                <li class='rt'>15635896654</li>
+                <li class='rt'><a href="tel:15239190232">15239190232</a></li>
               </ul>
               <div class='clear'>广东省深圳市宝安区龙塔街道红枫路3号邦兴佳苑4栋</div>
             </div>
@@ -106,14 +106,23 @@
         $('.content .' + className).addClass('show')
         $('.content .' + className).siblings().removeClass('show')
       })
-      $('.onWay .box').click(function(){
-        location.href = 'zaiTuDetail.html'
+      $('.onWay .box').click(function(e){
+        if (e.target.localName=='a') {
+        } else {
+          location.href = 'zaiTuDetail.html'
+        }
       })
-      $('.shipped .box').click(function(){
-        location.href = 'receivedGoodsDetail.html'
+      $('.shipped .box').click(function(e){
+        if (e.target.localName=='a') {
+        } else {
+          location.href = 'receivedGoodsDetail.html'
+        }
       })
-      $('.returned .box').click(function(){
-        location.href = 'returnGoodsDetail.html'
+      $('.returned .box').click(function(e){
+        if (e.target.localName=='a') {
+        } else {
+          location.href = 'returnGoodsDetail.html'
+        }
       })
     })
     </script>

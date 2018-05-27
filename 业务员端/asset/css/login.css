@@ -65,3 +65,7 @@
   bottom: 0.2rem;
   left: 0px;
 }
+.count-time{
+  display: none;
+  color: #999;
+}
