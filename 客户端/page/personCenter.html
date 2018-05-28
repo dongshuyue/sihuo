@@ -51,21 +51,24 @@
       </div>
     </div>
     <script>
-      $('#picture').click(function(){
-        $('#editPicture').removeClass('hiddens')
-      })
-      $('.cancleEdit').click(function(){
-        $('#editPicture').addClass('hiddens')
-      })
-      $('#suggestion').click(function(){
+	  $(function(){
+		$('#picture').click(function(){
+          $('#editPicture').removeClass('hiddens')
+        })
+        $('.cancleEdit').click(function(){
+          $('#editPicture').addClass('hiddens')
+        })
+        $('#suggestion').click(function(){
          location.href='suggestionFeedback.html'
-      })
-      $('#aboutUs').click(function(){
+        })
+        $('#aboutUs').click(function(){
          location.href='aboutUs.html'
-      })
-      $('#appRefund').click(function(){
-        location.href = 'applyReturnGoods.html'
-      })
+        })
+        $('#appRefund').click(function(){
+          location.href = 'applyReturnGoods.html'
+        })
+	  })
+      
     </script>
   </body>
 </html>
